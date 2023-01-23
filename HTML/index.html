@@ -4,17 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
+
+    <style>
+        .img-in-text {
+            width: 50px;
+            height: 44px;
+        }
+        .vermelho {
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+
 </head>
 <body>
-    
-    <h1>H1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum consectetur aspernatur quas atque corporis? Fuga, harum totam rerum neque ipsam, optio quisquam libero delectus est dolore ipsa eum commodi.</p>
-    <h2>H2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum consectetur aspernatur quas atque corporis? Fuga, harum totam rerum neque ipsam, optio quisquam libero delectus est dolore ipsa eum commodi.</p>
-    <h3>H3</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum consectetur aspernatur quas atque corporis? Fuga, harum totam rerum neque ipsam, optio quisquam libero delectus est dolore ipsa eum commodi.</p>
-    <h4>H4</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum consectetur aspernatur quas atque corporis? Fuga, harum totam rerum neque ipsam, optio quisquam libero delectus est dolore ipsa eum commodi.</p>
 
+    <h1>Cabeçalho</h1>
+    <p><span class="vermelho">Lorem</span> ipsum <b>dolor</b> sit amet consectetur adipisicing elit. 
+        <del>Harum</del> <ins>nostrum</ins> <strong>consectetur</strong> aspernatur quas atque corporis?
+         <div class="vermelho">Fuga</div>, harum totam rerum neque <i>ipsam</i>, optio quisquam libero 
+         <s>delectus</s> <u>est</u> dolore <em>ipsa</em> eum commodi.
+    </p>
+
+    <p>
+        <small>pequeno</small><br>
+        2<sup>2</sup><br>
+        H<sub>2</sub>O<br>
+        <pre><code>
+            public static void main(String[] args) {
+              System.out.println("Hello, World!"); 
+            } 
+             
+        </code></pre>
+    </p>
+
+    <blockquote cite="https://github.com/
+    matheusousams/curso-JavaScript-TypeScript/
+    tree/master/HTML">
+        <p>Aqui sim eu estou fazendo um bloco de citação</p>
+    </blockquote>
+
+    <p>
+        <a href="https://github.com/
+        matheusousams/curso-JavaScript-TypeScript/
+        tree/master/HTML" target="_blank">
+            <img class="img-in-text"
+            src="https://cdn-icons-png.flaticon.com/
+            512/25/25231.png" alt="icone github">
+        </a>
+    </p>
+
+    
+    
 </body>
 </html>
