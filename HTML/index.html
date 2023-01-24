@@ -4,45 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image:url(
+            "https://assets.nflxext.com/ffe/siteui/vlv3/1ecf18b2-adad-4684-bd9a-acab7f2a875f/5672ece6-388d-4034-a67d-37335d0e177b/BR-pt-20230116-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+            );
+            background-size: cover;
+            background-position: top center;
+        }
+        #heading {
+            background: rgba(0,0,0);
+        }
+
+        #heading div {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        #heading .h1 {
+            padding: 15px 0;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        #heading a {
+            color: #fff;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+    </style>
+
 </head>
 <body>
-    <header>
-        <h1>
-            <a href="#">Home</a>
-        </h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, modi pariatur doloremque sapiente omnis facere eius! Sit in id aperiam fugit est a? Possimus, ipsum quia necessitatibus alias porro cum.</p>
-        <div>Alinhar algo</div>
-    </header>   
-    
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="#">Texto 1</a></li>
-                <li><a href="#">Texto 2</a></li>
-                <li><a href="#">Texto 3</a></li>
-                <li><a href="#">Texto 4</a></li>
-            </ul>
-        </nav>
-    </aside>
-
-    <section>
-        <header>
-            <h2>Roupas Femininas</h2>
-        </header>
-
-        <article>
-            <h3>Heading 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid repellendus quo debitis molestias rerum maxime, praesentium ab. Quam nostrum ad quidem maiores velit accusantium culpa fugit sint, eius cumque.</p>
-        </article>
-    </section>
-
-    <article>
-        <header>Heading</header>
-        <div>Oi</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid alias saepe veniam ipsum nemo minima obcaecati id ipsa dolor laboriosam, asperiores pariatur facilis quae fuga provident maiores incidunt accusamus deleniti.</p>
-        <footer>
-            Rodapé
-        </footer>
-    </article>
+    <header id="heading">
+        <div>
+            <h1 class="h1">
+                <a href="#">Netflix</a>
+            </h1>
+            <h2 class="h1">
+                <a href="#">Netflix</a>
+            </h2>
+        </div>
+    </header>
 </body>
 </html>
